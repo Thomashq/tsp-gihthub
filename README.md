@@ -21,19 +21,9 @@ Este repositório contém uma implementação para resolver o Problema do Caixei
 
 O Problema do Caixeiro Viajante (TSP) é um problema clássico de otimização onde o objetivo é encontrar a rota mais curta que visita um conjunto de cidades e retorna à cidade de origem. Este repositório fornece uma solução para o TSP usando três algoritmos diferentes:
 
-- Hill Climbing
-- Algoritmo Genético
 - Têmpera Simulada
 
-## Algoritmos
-
-### Hill Climbing
-
-O Hill Climbing é um algoritmo de busca local que começa com uma solução arbitrária e, iterativamente, faz pequenas mudanças na solução, aceitando a mudança se ela melhorar a solução. Esse processo continua até que não se encontrem mais melhorias.
-
-### Algoritmo Genético
-
-O Algoritmo Genético é inspirado pelo processo de seleção natural. Ele usa técnicas como seleção, crossover e mutação para evoluir uma população de soluções em direção a soluções melhores ao longo de sucessivas gerações.
+## Algoritmo
 
 ### Têmpera Simulada
 
@@ -68,9 +58,7 @@ Para garantir um ambiente consistente e isolado para a execução deste projeto,
 2. Escolha o algoritmo de busca:
     Escolha o algoritmo para resolver o problema do Caixeiro Viajante:
     0 - Sair
-    1 - Hill Climbing
-    2 - Algoritmo Genético
-    3 - Têmpera Simulada
+    1 - Têmpera Simulada
     Digite a sua escolha: 
 
 ## Observação
@@ -80,12 +68,3 @@ Nós utilizamos a base de dados 'FIVE' disponíveis neste [site](https://people.
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Feito por
-
-Áquilas Rodrigues Jucá: GitHub(https://github.com/aquilasjuca)
-
-Kevin de Freitas Sales: GitHub(https://github.com/Kevin439560)
-
-Thomas Henrique Carvalho Pinheiro: GitHub(https://github.com/Thomashq)
-
